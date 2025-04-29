@@ -1,4 +1,3 @@
-
 int LED = 3;
 int BRILLO;
 int POT = 0;

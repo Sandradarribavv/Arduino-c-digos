@@ -1,4 +1,3 @@
-
 void setup(){
     pinMode(2, INPUT);         // pin 2 como entrada
     pinMode (3, OUTPUT);       // pin 3 como salida
