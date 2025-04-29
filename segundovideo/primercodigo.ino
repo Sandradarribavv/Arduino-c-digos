@@ -1,9 +1,3 @@
-Primer vídeo
-
-// El primer vídeo explica las partes de la placa
-
-Segundo vídeo
-
 void setup(){
     pinMode (13, OUTPUT);     // pin 13 como salida.
    }
