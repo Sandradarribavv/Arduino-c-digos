@@ -22,3 +22,4 @@ void loop() {
   Serial.println(HUMEDAD);
   delay(500);
 }
+  

@@ -11,4 +11,4 @@ void loop() {
   BRILLO = analogRead (POT) / 4;
   analogWrite(LED, BRILLO);
   }
-  
+     
