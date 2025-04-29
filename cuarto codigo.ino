@@ -1,0 +1,56 @@
+Quinto vídeo
+
+- Primer codigo:
+
+int LED = 3;
+int ECO;
+int TRIG = 10;
+int DURACION;
+int DISTANCIA;
+
+void setup(){
+  pinMode(TRIG, OUTPUT);
+  pinMode(ECO, INPUT);
+  pinMode(LED, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop(){
+  digitalWrite(TRIG, HIGH);
+  delay(1);
+  digitalWrite(TRIG, LOW);
+  DURACION = pulseIn(ECO, HIGH);
+  DISTANCIA = DURACION / 58.2;
+  Serial.println(DISTANCIA);
+  delay(200);
+}
+
+- Segundo codigo:
+
+int LED = 3;
+int ECO;
+int TRIG = 10;
+int DURACION;
+int DISTANCIA;
+
+void setup(){
+  pinMode(TRIG, OUTPUT);
+  pinMode(ECO, INPUT);
+  pinMode(LED, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop(){
+  digitalWrite(TRIG, HIGH);
+  delay(1);
+  digitalWrite(TRIG, LOW);
+  DURACION = pulseIn(ECO, HIGH);
+  DISTANCIA = DURACION / 58.2;
+  Serial.println(DISTANCIA);
+  delay(200);
+  if(DISTANCIA <= 20 && DISTANCIA >= 0){
+    digitalWrite(LED, HIGJ);
+    delay(DISTANCIA * 10);
+    digitalWrite(LED, LOW);
+  }
+}
