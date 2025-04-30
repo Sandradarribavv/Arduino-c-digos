@@ -4,7 +4,7 @@ int POT = 0;
 
 void setup() {
  pinMode(LED, OUTPUT);
- // las entradas analógicas no requieren inivialización
+ // las entradas analógicas no requieren inivializacion
 }
 
 void loop() {

@@ -11,7 +11,7 @@ void setup() {
  while(digitalRead(PULSADOR) == LOW){ // espero a que el pulsador se presione
 
   }
-ESTADO = digitalRead(LED);           // leo estado del LED
+ESTADO = digitalRead(LED);           // leo el estado del LED
 digitalWrite(LED, !ESTADO);          // escribo valor contrario
 while(digitalRead(PULSADOR) == HIGH){ // antirebote
   }

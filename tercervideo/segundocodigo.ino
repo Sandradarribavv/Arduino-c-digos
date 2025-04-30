@@ -8,7 +8,7 @@ void setup(){
       digitalWrite(3, HIGH);     //enciendo lED
       }
       else {
-        digitalWrite(3, LOW); // apago LED
+        digitalWrite(3, LOW); // apago  el LED
     }
     }
 

@@ -9,7 +9,7 @@ DHT dht(SENSOR, DHT22);
 
 void setup() {
   Serial.begin(9600);
-  dht.begin();
+  dht.begin(); 
 
 }
 

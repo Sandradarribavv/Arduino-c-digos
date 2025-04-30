@@ -23,5 +23,5 @@ void loop(){
     digitalWrite(LED, HIGJ);
     delay(DISTANCIA * 10);
     digitalWrite(LED, LOW);
-  }
+  } 
 }

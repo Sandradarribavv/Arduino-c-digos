@@ -18,6 +18,6 @@ void loop(){
   DURACION = pulseIn(ECO, HIGH);
   DISTANCIA = DURACION / 58.2;
   Serial.println(DISTANCIA);
-  delay(200);
+  delay(200); 
 }
    

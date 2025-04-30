@@ -12,6 +12,6 @@ void loop() {
   }
   for (BRILLO = 255; BRILLO > 0; BRILLO--);{
     analogWrite(LED, BRILLO);
-    delay(15); 
+    delay(15);  
       }
   }
